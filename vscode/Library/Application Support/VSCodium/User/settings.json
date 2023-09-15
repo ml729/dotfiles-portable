@@ -1,0 +1,45 @@
+{
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>", "l"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>", "l"]
+        },
+        {
+            "before": ["<C-g>"],
+            "after": ["<Esc>"]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<C-e>"],
+            "after": ["$"]
+        },
+        {
+            "before": ["<C-a>"],
+            "after": ["_"]
+        },
+        // {
+        //     "before": ["s"],
+        //     "after": ["_"]
+        // },
+        {
+            "before": ["<leader>", "f", "s"],
+            "commands": ["workbench.action.files.save"]
+        },
+        {
+            "before": ["<leader>", "f", "f"],
+            "commands": ["workbench.action.files.newUntitledFile"]
+        },
+
+    ],
+    "vim.useSystemClipboard": true,
+    "vim.leader": "<space>"
+
+}
